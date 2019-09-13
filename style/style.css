@@ -1,0 +1,242 @@
+@import url(themes/bootswatch/bootstrap/scss/bootstrap.css);
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button {
+    border-radius: 5px;
+}
+
+.button.theme-cerulean,
+.theme-cerulean .button {
+    background-color: #f8f9fa;
+}
+
+.button.theme-cosmo,
+.theme-cosmo .button {
+    background-color: #f8f9fa;
+}
+
+.button.theme-cyborg,
+.theme-cyborg .button {
+    background-color: #222;
+}
+
+.button.theme-darkly,
+.theme-darkly .button {
+    background-color: #303030;
+}
+
+.button.theme-flatly,
+.theme-flatly .button {
+    background-color: #ecf0f1;
+}
+
+.button.theme-journal,
+.theme-journal .button {
+    background-color: #f8f9fa;
+}
+
+.button.theme-litera,
+.theme-litera .button {
+    background-color: #f8f9fa;
+}
+
+.button.theme-lumen,
+.theme-lumen .button {
+    background-color: #f6f6f6;
+}
+
+.button.theme-lux,
+.theme-lux .button {
+    background-color: #fff;
+}
+
+.button.theme-materia,
+.theme-materia .button {
+    background-color: #fff;
+}
+
+.button.theme-minty,
+.theme-minty .button {
+    background-color: #f8f9fa;
+}
+
+.button.theme-pulse,
+.theme-pulse .button {
+    background-color: #F9F8FC;
+}
+
+.button.theme-sandstone,
+.theme-sandstone .button {
+    background-color: #F8F5F0;
+}
+
+.button.theme-simplex,
+.theme-simplex .button {
+    background-color: #fff;
+}
+
+.button.theme-sketchy,
+.theme-sketchy .button {
+    background-color: #fff;
+}
+
+.button.theme-slate,
+.theme-slate .button {
+    background-color: #e9ecef;
+}
+
+.button.theme-solar,
+.theme-solar .button {
+    background-color: #FDF6E3;
+}
+
+.button.theme-spacelab,
+.theme-spacelab .button {
+    background-color: #eee;
+}
+
+.button.theme-superhero,
+.theme-superhero .button {
+    background-color: #abb6c2;
+}
+
+.button.theme-united,
+.theme-united .button {
+    background-color: #e9ecef;
+}
+
+.button.theme-yeti,
+.theme-yeti .button {
+    background-color: #eee;
+}
+
+.card.theme-cerulean,
+.theme-cerulean .card {
+    color: #2FA4E7;
+    background-color: #e9ecef;
+}
+
+.card.theme-cosmo,
+.theme-cosmo .card {
+    color: #2780E3;
+    background-color: #373a3c;
+}
+
+.card.theme-cyborg,
+.theme-cyborg .card {
+    color: #2A9FD6;
+    background-color: #555;
+}
+
+.card.theme-darkly,
+.theme-darkly .card {
+    color: #375a7f;
+    background-color: #444;
+}
+
+.card.theme-flatly,
+.theme-flatly .card {
+    color: #2C3E50;
+    background-color: #95a5a6;
+}
+
+.card.theme-journal,
+.theme-journal .card {
+    color: #EB6864;
+    background-color: #aaa;
+}
+
+.card.theme-litera,
+.theme-litera .card {
+    color: #4582EC;
+    background-color: #adb5bd;
+}
+
+.card.theme-lumen,
+.theme-lumen .card {
+    color: #158CBA;
+    background-color: #f0f0f0;
+}
+
+.card.theme-lux,
+.theme-lux .card {
+    color: #1a1a1a;
+    background-color: #fff;
+}
+
+.card.theme-materia,
+.theme-materia .card {
+    color: #2196F3;
+    background-color: #fff;
+}
+
+.card.theme-minty,
+.theme-minty .card {
+    color: #78C2AD;
+    background-color: #F3969A;
+}
+
+.card.theme-pulse,
+.theme-pulse .card {
+    color: #593196;
+    background-color: #A991D4;
+}
+
+.card.theme-sandstone,
+.theme-sandstone .card {
+    color: #325D88;
+    background-color: #8E8C84;
+}
+
+.card.theme-simplex,
+.theme-simplex .card {
+    color: #D9230F;
+    background-color: #fff;
+}
+
+.card.theme-sketchy,
+.theme-sketchy .card {
+    color: #333;
+    background-color: #555;
+}
+
+.card.theme-slate,
+.theme-slate .card {
+    color: #3A3F44;
+    background-color: #7A8288;
+}
+
+.card.theme-solar,
+.theme-solar .card {
+    color: #B58900;
+    background-color: #839496;
+}
+
+.card.theme-spacelab,
+.theme-spacelab .card {
+    color: #446E9B;
+    background-color: #999;
+}
+
+.card.theme-superhero,
+.theme-superhero .card {
+    color: #DF691A;
+    background-color: #4E5D6C;
+}
+
+.card.theme-united,
+.theme-united .card {
+    color: #E95420;
+    background-color: #AEA79F;
+}
+
+.card.theme-yeti,
+.theme-yeti .card {
+    color: #008cba;
+    background-color: #eee;
+}

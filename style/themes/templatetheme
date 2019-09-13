@@ -1,0 +1,16 @@
+
+.custom-scope {
+  @import "bootswatch/{THEME_NAME}/variables";
+  ${THEME_NAME}: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("{THEME_NAME}": ${THEME_NAME})) !global;
+}
+
