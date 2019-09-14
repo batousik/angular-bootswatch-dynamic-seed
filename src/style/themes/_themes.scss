@@ -1,0 +1,336 @@
+@import "themes_map";
+
+.custom-scope {
+  @import "~bootswatch/dist/cerulean/variables";
+  $cerulean: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("cerulean": $cerulean)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/cosmo/variables";
+  $cosmo: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("cosmo": $cosmo)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/cyborg/variables";
+  $cyborg: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("cyborg": $cyborg)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/darkly/variables";
+  $darkly: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("darkly": $darkly)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/flatly/variables";
+  $flatly: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("flatly": $flatly)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/journal/variables";
+  $journal: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("journal": $journal)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/litera/variables";
+  $litera: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("litera": $litera)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/lumen/variables";
+  $lumen: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("lumen": $lumen)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/lux/variables";
+  $lux: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("lux": $lux)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/materia/variables";
+  $materia: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("materia": $materia)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/minty/variables";
+  $minty: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("minty": $minty)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/pulse/variables";
+  $pulse: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("pulse": $pulse)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/sandstone/variables";
+  $sandstone: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("sandstone": $sandstone)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/simplex/variables";
+  $simplex: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("simplex": $simplex)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/sketchy/variables";
+  $sketchy: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("sketchy": $sketchy)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/slate/variables";
+  $slate: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("slate": $slate)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/solar/variables";
+  $solar: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("solar": $solar)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/spacelab/variables";
+  $spacelab: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("spacelab": $spacelab)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/superhero/variables";
+  $superhero: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("superhero": $superhero)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/united/variables";
+  $united: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("united": $united)) !global;
+}
+
+
+.custom-scope {
+  @import "~bootswatch/dist/yeti/variables";
+  $yeti: (
+    "primary":$primary,
+    "secondary":$secondary,
+    "success":$success,
+    "info":$info,
+    "warning":$warning,
+    "danger":$danger,
+    "light":$light,
+    "dark":$dark
+  );
+  $themes: map_merge($themes, ("yeti": $yeti)) !global;
+}

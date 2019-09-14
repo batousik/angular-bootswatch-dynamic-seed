@@ -25,8 +25,18 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*.min.css",
+                "input": "./node_modules/bootswatch/dist",
+                "output": "/assets"
+              }
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/style"
+              ]
+            },
             "styles": [
               "src/styles.scss"
             ],
@@ -119,6 +129,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-bootswatch-dynamic-seed"
 }

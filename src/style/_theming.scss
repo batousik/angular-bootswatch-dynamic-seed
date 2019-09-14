@@ -1,0 +1,38 @@
+@import "themes/themes";
+
+$tmp-color-primary: null;
+$tmp-color-secondary: null;
+$tmp-color-success: null;
+$tmp-color-info: null;
+$tmp-color-warning: null;
+$tmp-color-danger: null;
+$tmp-color-light: null;
+$tmp-color-dark: null;
+
+@mixin themify() {
+  @each $theme, $theme-vars in $themes {
+    &.theme-#{$theme},
+    .theme-#{$theme} & {
+
+      $tmp-color-primary: map-get($theme-vars, "primary") !global;
+      $tmp-color-secondary: map-get($theme-vars, "secondary") !global;
+      $tmp-color-success: map-get($theme-vars, "success") !global;
+      $tmp-color-info: map-get($theme-vars, "info") !global;
+      $tmp-color-warning: map-get($theme-vars, "warning") !global;
+      $tmp-color-danger: map-get($theme-vars, "danger") !global;
+      $tmp-color-light: map-get($theme-vars, "light") !global;
+      $tmp-color-dark: map-get($theme-vars, "dark") !global;
+
+      @content;
+
+      $tmp-color-primary: null !global;
+      $tmp-color-secondary: null !global;
+      $tmp-color-success: null !global;
+      $tmp-color-info: null !global;
+      $tmp-color-warning: null !global;
+      $tmp-color-danger: null !global;
+      $tmp-color-light: null !global;
+      $tmp-color-dark: null !global;
+    }
+  }
+}

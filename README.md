@@ -1,4 +1,5 @@
 # AngularBootswatchDynamicSeed
+An angular app, that can dynamically change bootswatch themes and you have access to theme colors in each component
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
 
